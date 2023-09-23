@@ -1,4 +1,4 @@
-ifndef MAIN_H
+#ifndef MAIN_H
 #define MAIN_H
 #include <stdarg.h>
 #include <stdio.h>
@@ -15,8 +15,8 @@ ifndef MAIN_H
 #define F_SPACE 16
 
 /* SIZES */
-#define S_LONG 2
-#define S_SHORT 1
+#define SI_LONG 2
+#define SI_SHORT 1
 
 /**
  * struct fmt - Struct op
@@ -114,4 +114,4 @@ int is_digit(char);
 long int convert_size_number(long int num, int size);
 long int convert_size_unsgnd(unsigned long int num, int size);
 
-#endif
+#endif /* MAIN_H */
